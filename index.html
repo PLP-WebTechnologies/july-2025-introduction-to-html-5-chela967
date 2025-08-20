@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the fundamentals of HTML5 semantic structure, web accessibility, and SEO best practices for modern web development.">
+    <meta name="keywords" content="HTML5, semantic HTML, web accessibility, SEO, web development">
+    <meta name="author" content="Web Development Insights">
+    <title>HTML5 Semantic Structure | Web Accessibility & SEO Best Practices</title>
+</head>
+<body>
+    <!-- Skip link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header section -->
+    <header role="banner">
+        <h1>Web Development Insights</h1>
+        <p>Exploring modern web technologies and best practices</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav role="navigation" aria-label="Main navigation">
+        <h2 class="visually-hidden">Main Navigation</h2>
+        <ul>
+            <li><a href="#html5">HTML5 Semantics</a></li>
+            <li><a href="#accessibility">Accessibility</a></li>
+            <li><a href="#seo">SEO Principles</a></li>
+            <li><a href="#resources">Resources</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content -->
+    <main id="main-content" role="main">
+        <!-- Introductory section -->
+        <section id="intro" aria-labelledby="intro-heading">
+            <h2 id="intro-heading">Building Modern Web Experiences</h2>
+            <p>Modern web development combines semantic HTML5 structure, accessibility considerations, and search engine optimization to create inclusive, discoverable websites.</p>
+            <figure>
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MDAiIGhlaWdodD0iMjAwIiB2aWV3Qm94PSIwIDAgNDAwIDIwMCI+PHJlY3Qgd2lkdGg9IjQwMCIgaGVpZ2h0PSIyMDAiIGZpbGw9IiNlMWUxZTEiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkb21pbmFudC1iYXNlbGluZT0ibWlkZGxlIiBmaWxsPSIjMzMzIj5IVE1MNSBTZW1hbnRpYyBTdHJ1Y3R1cmU8L3RleHQ+PHRleHQgeD0iNTAlIiB5PSI2MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgZmlsbD0iIzMzMyI+V2ViIEFjY2Vzc2liaWxpdHkgJiBTRU88L3RleHQ+PC9zdmc+" alt="Diagram showing HTML5, Accessibility, and SEO as pillars of modern web development" width="400" height="200">
+                <figcaption>Three pillars of modern web development</figcaption>
+            </figure>
+        </section>
+
+        <!-- HTML5 section -->
+        <article id="html5" aria-labelledby="html5-heading">
+            <header>
+                <h2 id="html5-heading">HTML5 Semantic Structure</h2>
+                <p>Why semantic markup matters for modern websites</p>
+            </header>
+            
+            <section aria-labelledby="benefits-heading">
+                <h3 id="benefits-heading">Benefits of Semantic HTML5</h3>
+                <p>Semantic HTML5 elements provide meaning to both browsers and developers, making your code more readable and maintainable.</p>
+                
+                <h4>Key Semantic Elements:</h4>
+                <ul>
+                    <li><code>&lt;header&gt;</code> - Introductory content</li>
+                    <li><code>&lt;nav&gt;</code> - Navigation links</li>
+                    <li><code>&lt;main&gt;</code> - Primary content</li>
+                    <li><code>&lt;article&gt;</code> - Self-contained composition</li>
+                    <li><code>&lt;section&gt;</code> - Thematic grouping</li>
+                    <li><code>&lt;aside&gt;</code> - Tangentially related content</li>
+                    <li><code>&lt;footer&gt;</code> - Closing content</li>
+                </ul>
+            </section>
+            
+            <section aria-labelledby="implementation-heading">
+                <h3 id="implementation-heading">Implementation Example</h3>
+                <p>Using semantic elements improves document outline and accessibility:</p>
+                
+                <pre><code>&lt;article&gt;
+  &lt;header&gt;
+    &lt;h2&gt;Article Title&lt;/h2&gt;
+    &lt;p&gt;Published on &lt;time datetime="2023-05-15"&gt;May 15, 2023&lt;/time&gt;&lt;/p&gt;
+  &lt;/header&gt;
+  &lt;section&gt;
+    &lt;h3&gt;Introduction&lt;/h3&gt;
+    &lt;p&gt;Article content...&lt;/p&gt;
+  &lt;/section&gt;
+  &lt;footer&gt;
+    &lt;p&gt;Written by Author Name&lt;/p&gt;
+  &lt;/footer&gt;
+&lt;/article&gt;</code></pre>
+            </section>
+        </article>
+
+        <!-- Accessibility section -->
+        <article id="accessibility" aria-labelledby="accessibility-heading">
+            <header>
+                <h2 id="accessibility-heading">Web Accessibility</h2>
+                <p>Creating inclusive web experiences for all users</p>
+            </header>
+            
+            <section aria-labelledby="wcag-heading">
+                <h3 id="wcag-heading">WCAG Guidelines</h3>
+                <p>The Web Content Accessibility Guidelines (WCAG) provide recommendations for making web content more accessible.</p>
+                
+                <h4>Key Principles:</h4>
+                <ul>
+                    <li><strong>Perceivable</strong> - Information must be presentable in ways users can perceive</li>
+                    <li><strong>Operable</strong> - Interface components must be operable by all users</li>
+                    <li><strong>Understandable</strong> - Information and operation must be understandable</li>
+                    <li><strong>Robust</strong> - Content must be robust enough to work with current and future tools</li>
+                </ul>
+            </section>
+            
+            <section aria-labelledby="aria-heading">
+                <h3 id="aria-heading">ARIA Landmarks</h3>
+                <p>ARIA (Accessible Rich Internet Applications) landmarks help assistive technologies navigate page content.</p>
+                
+                <h4>Common Landmark Roles:</h4>
+                <ul>
+                    <li><code>role="banner"</code> - Site-oriented content</li>
+                    <li><code>role="navigation"</code> - Navigation elements</li>
+                    <li><code>role="main"</code> - Primary content</li>
+                    <li><code>role="complementary"</code> - Supporting content</li>
+                    <li><code>role="contentinfo"</code> - Information about the content</li>
+                </ul>
+            </section>
+        </article>
+
+        <!-- SEO section -->
+        <article id="seo" aria-labelledby="seo-heading">
+            <header>
+                <h2 id="seo-heading">Search Engine Optimization</h2>
+                <p>Helping search engines understand and rank your content</p>
+            </header>
+            
+            <section aria-labelledby="onpage-heading">
+                <h3 id="onpage-heading">On-Page SEO Techniques</h3>
+                <p>Proper HTML structure contributes significantly to search engine visibility.</p>
+                
+                <h4>Key Elements:</h4>
+                <ul>
+                    <li>Semantic HTML5 markup</li>
+                    <li>Proper heading hierarchy</li>
+                    <li>Descriptive title tags and meta descriptions</li>
+                    <li>Meaningful URL structure</li>
+                    <li>Alt text for images</li>
+                    <li>Structured data markup</li>
+                </ul>
+            </section>
+            
+            <section aria-labelledby="content-heading">
+                <h3 id="content-heading">Content Best Practices</h3>
+                <p>Quality content organized with proper semantic structure performs better in search results.</p>
+                
+                <h4>Content Organization:</h4>
+                <ol>
+                    <li>Create unique, valuable content</li>
+                    <li>Use headings to create clear content hierarchy</li>
+                    <li>Include relevant keywords naturally</li>
+                    <li>Optimize page loading speed</li>
+                    <li>Ensure mobile-friendliness</li>
+                </ol>
+            </section>
+        </article>
+
+        <!-- Resources section -->
+        <aside id="resources" aria-labelledby="resources-heading">
+            <h2 id="resources-heading">Additional Resources</h2>
+            <p>Expand your knowledge with these recommended resources:</p>
+            
+            <section aria-labelledby="links-heading">
+                <h3 id="links-heading">Helpful Links</h3>
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN HTML Element Reference</a></li>
+                    <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG Guidelines</a></li>
+                    <li><a href="https://developers.google.com/search/docs">Google Search Documentation</a></li>
+                    <li><a href="https://webaim.org/">WebAIM Accessibility Resources</a></li>
+                </ul>
+            </section>
+            
+            <section aria-labelledby="contact-heading">
+                <h3 id="contact-heading">Contact for More Information</h3>
+                <form aria-labelledby="contact-heading">
+                    <fieldset>
+                        <legend>Send us your questions</legend>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required aria-required="true">
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required aria-required="true">
+                        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
+                        
+                        <button type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </section>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <h2>About This Page</h2>
+        <p>This demonstration page showcases HTML5 semantic structure, accessibility features, and SEO best practices.</p>
+        <p>&copy; 2023 Web Development Insights. All rights reserved.</p>
+        <address>
+            Contact: <a href="mailto:info@webdevinsights.com">info@webdevinsights.com</a>
+        </address>
+        <p><small>Last updated: <time datetime="2023-05-15">May 15, 2023</time></small></p>
+    </footer>
+</body>
+</html>
